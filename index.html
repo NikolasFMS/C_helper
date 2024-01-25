@@ -6,11 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- We only include this to explicitly loosen the CSP of various packager environments. It does not provide any security. -->
   <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@700&display=swap" rel="stylesheet">
   <title>Copenhagen_helper</title>
   <style>
     body {
       color: #294a71;
-      font-family: sans-serif;
+          font-family: "Ruda", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
       overflow: hidden;
       margin: 0;
       padding: 0;
@@ -68,8 +74,7 @@
       
     }
     .progress-bar-outer {
-      border: 1px solid currentColor;
-      height: 10px;
+      height: 5px;
       width: 200px;
       max-width: 200px;
     }
@@ -80,7 +85,7 @@
     }
     .loading-text, noscript {
       font-weight: normal;
-      font-size: 36px;
+      font-size: 24px;
       margin: 0 0 16px;
     }
     .loading-image {
